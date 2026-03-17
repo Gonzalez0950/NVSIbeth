@@ -1,0 +1,57 @@
+h1{
+    margin: 20px auto 50px auto;
+    text-align: center;
+    color: #d14d00;
+    font-size: 55px;
+}
+h3{
+    margin: auto;
+    text-align: center;
+    color: #d14d00;
+    font-size: 25px;
+}
+
+hr{
+    color: #000000;
+}
+img{
+    display: block;
+    margin: 100px auto 30px auto;
+    width: 50%;
+}
+body{
+    background-color: #fcfceb;
+}
+.innerBox{
+    background-color: #afff69;
+    border-radius: 20px;
+    width: 85%;
+    margin: 30px auto 30px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.innerBox input{
+    width: 95%;
+    margin: 5px 2.5%;
+    height: 25px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+.innerBox label{
+    width: 95%;
+    margin: 10px 2.5% 5px 2.5%;
+    height: 20px;
+}
+.innerBox select{
+    width: 95.3%;
+    margin: 5px 2.5%;
+    height: 28px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
