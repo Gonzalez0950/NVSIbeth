@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/style.css" rel="stylesheet">
-    <link href="/script/script.py" rel="script">
 <title>Nutricion y Vida Sana</title>
 </head>
 <body>
@@ -18,109 +17,109 @@
         <div class="innerBox">
             <h2>Apertura</h2>
             <hr/>
-            <label>Nombre/s</label>
+            <label for="name">Nombre/s</label>
             <br/>
             <input type="text" id="name"/>
             <br/>
-            <label>Apellido/s</label>
+            <label for="lastname">Apellido/s</label>
             <br/>
             <input type="text" id="lastname"/>
             <br/>
-            <label>Fecha de nacimiento</label>
+            <label for="DOB">Fecha de nacimiento</label>
             <br/>
-            <input type="text" id="DOB"/>
-            <label>Edad</label>
+            <input type="date" id="DOB"/>
+            <label for="age">Edad</label>
             <br/>
             <input type="number" id="age"/>
             <br/>
-            <label>Sexo</label>
+            <label for="sex">Sexo</label>
             <br/>
             <select name="Sexo" id="sex">
                 <option value="" disabled selected hidden></option>
-                <option value="Femenino">Femenino</option>
-                <option value="Masculino">Masculino</option>
+                <option value="Femenino" id="femenino">Femenino</option>
+                <option value="Masculino" id="masculino">Masculino</option>
             </select>
             <br/>
-            <label>Motivo de seguimiento</label>
+            <label for="seguimiento">Motivo de seguimiento</label>
             <br/>
             <input type="text" id="seguimiento"/>
             <br/>
-            <label>Cambios implementados</label>
+            <label for="cambios">Cambios implementados</label>
             <br/>
             <input type="text" id="cambios"/>
             <br/>
-            <label>Barreras identificadas</label>
+            <label for="barreras">Barreras identificadas</label>
             <br/>
             <input type="text" id="barreras"/>
             <br/>
-            <label>Avances o mejoras percibidas por el paciente</label>
+            <label for="avances">Avances o mejoras percibidas por el paciente</label>
             <br/>
             <input type="text" id="avances"/>
             <br/>
-            <label>Ajustes realizados al plan nutricional</label>
+            <label for="ajustes">Ajustes realizados al plan nutricional</label>
             <br/>
             <input type="text" id="ajustes"/>
         </div>
         <div class="innerBox">
             <h2>Evaluacion Clinica</h2>
             <hr/>
-            <label>Estado fisico general desde la ultima cita</label>
+            <label for="estado">Estado fisico general desde la ultima cita</label>
             <br/>
             <input type="text" id="estado"/>
             <br/>
-            <label>Sintomas digestivos recientes</label>
+            <label for="sintomas">Sintomas digestivos recientes</label>
             <br/>
             <input type="text" id="sintomas"/>
             <br/>
-            <label>Cambios de energia, fuerza, apetito u otros</label>
+            <label for="cambiosE">Cambios de energia, fuerza, apetito u otros</label>
             <br/>
-            <input type="text" id="cambios"/>
+            <input type="text" id="cambiosE"/>
             <br/>
         </div>
         <div class="innerBox">
             <h2>Evaluacion Antropométrica</h2>
             <hr/>
-            <label>Registro de peso y medidas</label>
+            <label for="registro">Registro de peso y medidas</label>
             <br/>
             <input type="text" id="registro"/>
             <br/>
-            <label>Dificultades en la medición</label>
+            <label for="dificultades">Dificultades en la medición</label>
             <br/>
             <input type="text" id="dificultades"/>
             <br/>
-            <label>Retroalimentación según evaluación</label>
+            <label for="cambiosR">Retroalimentación según evaluación</label>
             <br/>
-            <input type="text" id="cambios"/>
+            <input type="text" id="cambiosR"/>
             <br/>
         </div>
         <div class="innerBox">
             <h2>Evaluacion Dietetica</h2>
             <hr/>
-            <label>Cambios de alimentacion desde la ultima cita</label>
+            <label for="cambiosAli">Cambios de alimentacion desde la ultima cita</label>
             <br/>
             <input type="text" id="cambiosAli"/>
             <br/>
-            <label>Alimentos incorporados o reducidos</label>
+            <label for="alimentos">Alimentos incorporados o reducidos</label>
             <br/>
             <input type="text" id="alimentos"/>
             <br/>
-            <label>Cumplimiento de recomendaciones previas</label>
+            <label for="cumplimiento">Cumplimiento de recomendaciones previas</label>
             <br/>
             <input type="text" id="cumplimiento"/>
             <br/>
-            <label>Porcentaje de adherencia a plan nutricional</label>
+            <label for="adherencia">Porcentaje de adherencia a plan nutricional</label>
             <br/>
             <input type="text" id="adherencia"/>
             <br/>
-            <label>Momento mas dificil de manejar</label>
+            <label for="momento">Momento mas dificil de manejar</label>
             <br/>
-            <input type="text" id="momoento"/>
+            <input type="text" id="momento"/>
             <br/>
-            <label>Situaciones de afectaron la adherencia</label>
+            <label for="situaciones">Situaciones de afectaron la adherencia</label>
             <br/>
             <input type="text" id="situaciones"/>
             <br/>
-            <label>Recuento de 24 horas/Frecuencia de consumo</label>
+            <label for="recuento">Recuento de 24 horas/Frecuencia de consumo</label>
             <br/>
             <input type="text" id="recuento"/>
             <br/>
@@ -128,11 +127,11 @@
         <div class="innerBox">
             <h2>Evaluacion de Actividad Fisica</h2>
             <hr/>
-            <label>Rutina de actividad fisica</label>
+            <label for="rutina">Rutina de actividad fisica</label>
             <br/>
             <input type="text" id="rutina"/>
             <br/>
-            <label>dificultades para complir el ejercicio</label>
+            <label for="dificultadesEje">dificultades para complir el ejercicio</label>
             <br/>
             <input type="text" id="dificultadesEje"/>
             <br/>
@@ -140,23 +139,23 @@
         <div class="innerBox">
             <h2>Evaluacion de Habitos y Estilo de Vida</h2>
             <hr/>
-            <label>Calidad del sueño</label>
+            <label for="sueño">Calidad del sueño</label>
             <br/>
             <input type="text" id="sueño"/>
             <br/>
-            <label>Consumo actual de agua</label>
+            <label for="agua">Consumo actual de agua</label>
             <br/>
             <input type="text" id="agua"/>
             <br/>
-            <label>Nivel de estres percibido</label>
+            <label for="estres">Nivel de estres percibido</label>
             <br/>
             <input type="text" id="estres"/>
             <br/>
-            <label>Estrategias utilixadas para manejar el estres</label>
+            <label for="estrategias">Estrategias utilizadas para manejar el estres</label>
             <br/>
             <input type="text" id="estrategias"/>
             <br/>
-            <label>Influencia de emociones en la alimentacion</label>
+            <label for="emociones">Influencia de emociones en la alimentacion</label>
             <br/>
             <input type="text" id="emociones"/>
             <br/>
@@ -164,13 +163,18 @@
         <div class="innerBox">
             <h2>Educacion Alimentaria y nutricional</h2>
             <hr/>
-            <label>Refuerzo de puntos debiles, modificacion de metas</label>
+            <label for="refuerzo">Refuerzo de puntos debiles, modificacion de metas</label>
             <br/>
             <input type="text" id="refuerzo"/>
             <br/>
         </div>
     </form>
+    <button id="submit" onclick="Completar()">Completar</button>
 </div>
+<div>
+    <textarea id="resultado"></textarea>
+</div>
+<script src="/script/script.js"></script>
 </body>
 <Footer>
 
