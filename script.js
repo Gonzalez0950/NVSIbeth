@@ -39,7 +39,7 @@ function Completar(){
     let cambiosText = (cambios == 'ninguno' || cambios == 'no' || cambios == '' || cambios == 'no cambios' || cambios == 'no refiere cambios') ? 'no refiere cambios':`refiere ${cambios}`;
     let barrera = (barreas == '' || barreas == 'no' || barreas == 'ninguno' || barreas == 'no barreras' || barreas == 'no identifica barreras') ? 'no identifica barreras':`identifica como principales barreras ${barreas}`;
     let avancesR = (avances == '' || avances == 'no' || avances == 'ninguno' || avances == 'no avances' || avances == 'no percibe avances') ? 'No percibe avances':`Percibe como avances ${avances}`;
-    let ajustesR = (ajustes == '' || ajustes == 'no' || ajustes == 'ninguno' || ajustes == 'no ajustes' || ajustes == 'no se realizaron avances') ? 'no se ningun ajuste ajustes':`se realizaron ajustes al plan nutricional ${ajustes}`;
+    let ajustesR = (ajustes == '' || ajustes == 'no' || ajustes == 'ninguno' || ajustes == 'no ajustes' || ajustes == 'no se realizaron avances') ? 'no se ningun ajuste ajustes':`por lo que se realizaron ajustes al plan nutricional ${ajustes}`;
     let estadoR = (estado == '' || estado == 'no' || estado == 'ninguno' || estado == 'nada') ? 'no percibe cambios desde la ultima cita':`refiere ${estado}`;
     let CambiosER = (cambiosE == '' || cambiosE == 'no' || cambiosE == 'ninguno' || cambiosE == 'sin cambios') ? 'no registra cambios de energia':`${cambiosE}`;
     let sintomasR = (sintomas == '' || sintomas == 'no' || sintomas == 'ninguno' || sintomas == 'nada' || sintomas == 'No sintomas' || sintomas == 'no percibe sintomas') ? 'No percibe sintomas':`${sintomas}`;
@@ -51,9 +51,8 @@ function Completar(){
     let difiRultadesEjeR = (dificultadesEje == '' || dificultadesEje == 'no' || dificultadesEje == 'ninguna' || dificultadesEje == 'sin dificultades') ? 'no percibe dificultades para cumplir el ejercicio':`${dificultadesEje}`;
     let estrategiasR = (estrategias == '' || estrategias == 'no' || estrategias == 'ninguna' || alimentos == 'sin estrategias') ? 'no utilizó ninguna estrategia':`${estrategias}`;
 
-    let text = `${paciente}, ${sexo} de ${edadR} en seguimiento nutricional para ${seguimiento}, quien ${cambiosText}; ${barrera}. ${avancesR}, 
-    por lo que ${ajustesR}. Clínicamente ${estadoR}, ${sintomasR}, ${CambiosER}. En evaluación antropométrica reporta ${registro}, ${dificultadesR}, ${cambiosR}. 
-    Dietéticamente ha ${cambiosAliR}, ${alimentosR}, ${cumplimientos}, con adherencia estimada de ${adherencia}; ${momentoR}, ${situacionesR}. Recuento de 24 horas ${recuento}. 
+    let text = `Paciente ${sexo} de ${edadR} en seguimiento nutricional por ${seguimiento}, quien refiere ${cambiosText}; Identifica como principales barreras ${barrera}. 
+    Percibe como avances${avancesR}, ${ajustesR}. ${cambiosAliR}, ${alimentosR}, ${cumplimientos}, con adherencia estimada de ${adherencia}; ${momentoR}, ${situacionesR}. Recuento de 24 horas ${recuento}. 
     ${rutina}, ${difiRultadesEjeR}. Duerme ${sueño}, consume ${agua} de agua y reporta nivel de estrés ${estres},
     ${estrategiasR} ${emociones}. ${refuerzo}`;
 
