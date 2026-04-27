@@ -39,7 +39,7 @@ function Completar(){
     let cambiosText = (cambios == 'ninguno' || cambios == 'no' || cambios == '' || cambios == 'no cambios' || cambios == 'no refiere cambios') ? 'no refiere cambios':`refiere haber implementado cambios desde la consulta anterior consistentes en ${cambios}`;
     let barrera = (barreas == '' || barreas == 'no' || barreas == 'ninguno' || barreas == 'no barreras' || barreas == 'no identifica barreras') ? 'no identifica barreras':`identifica como principales barreras ${barreas}`;
     let avancesR = (avances == '' || avances == 'no' || avances == 'ninguno' || avances == 'no avances' || avances == 'no percibe avances') ? 'No percibe avances':`Percibe como avances ${avances}`;
-    let ajustesR = (ajustes == '' || ajustes == 'no' || ajustes == 'ninguno' || ajustes == 'no ajustes' || ajustes == 'no se realizaron avances') ? 'no se ningun ajuste ajustes':`se realizaron ajustes al plannutricional ${ajustes}`;
+    let ajustesR = (ajustes == '' || ajustes == 'no' || ajustes == 'ninguno' || ajustes == 'no ajustes' || ajustes == 'no se realizaron avances') ? 'no se ningun ajuste ajustes':`por lo que se realizaron ajustes al plan nutricional ${ajustes}`;
     let estadoR = (estado == '' || estado == 'no' || estado == 'ninguno' || estado == 'nada') ? 'no percibe cambios desde la ultima cita':`refiere ${estado}`;
     let CambiosER = (cambiosE == '' || cambiosE == 'no' || cambiosE == 'ninguno' || cambiosE == 'sin cambios') ? 'no registra cambios de energia':`${cambiosE}`;
     let sintomasR = (sintomas == '' || sintomas == 'no' || sintomas == 'ninguno' || sintomas == 'nada' || sintomas == 'No sintomas' || sintomas == 'no percibe sintomas digestivos') ? 'No percibe sintomas digestivos':`${sintomas}`;
